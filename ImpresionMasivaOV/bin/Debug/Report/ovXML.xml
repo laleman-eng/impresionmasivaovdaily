@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<ArrayOfOV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OV>
+    <Encabezado>
+      <docentry>29487</docentry>
+      <docnum>20455</docnum>
+      <ruta>11C</ruta>
+      <cardCode>788757603-0-C</cardCode>
+      <cardName>SOCIEDAD COMBUSTIBLES ARICA</cardName>
+      <dirDespacho>SANTIAGO ARATA 3190</dirDespacho>
+      <comuna>ARICA</comuna>
+      <ciudad>ARICA</ciudad>
+      <docTotal>59080</docTotal>
+      <fechaDespacho>2020-12-04T00:00:00</fechaDespacho>
+    </Encabezado>
+    <Detalle>
+      <oDetalle>
+        <codigo>MB003</codigo>
+        <descripcion>Sdw jamon queso Premium</descripcion>
+        <cantiad>10</cantiad>
+        <precio>796</precio>
+        <total>7960</total>
+        <docentry>29487</docentry>
+        <lineNum>1</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>MB004</codigo>
+        <descripcion>Sdw ave pimenton Premium</descripcion>
+        <cantiad>10</cantiad>
+        <precio>796</precio>
+        <total>7960</total>
+        <docentry>29487</docentry>
+        <lineNum>2</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>MB005</codigo>
+        <descripcion>Sdw Churr. Queso premium</descripcion>
+        <cantiad>5</cantiad>
+        <precio>1250</precio>
+        <total>6250</total>
+        <docentry>29487</docentry>
+        <lineNum>3</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>MB006</codigo>
+        <descripcion>Sdw Ave Mayo Premium</descripcion>
+        <cantiad>8</cantiad>
+        <precio>796</precio>
+        <total>6368</total>
+        <docentry>29487</docentry>
+        <lineNum>4</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>MB127</codigo>
+        <descripcion>Sandwich miga Barros Luco 165 gr</descripcion>
+        <cantiad>7</cantiad>
+        <precio>889</precio>
+        <total>6223</total>
+        <docentry>29487</docentry>
+        <lineNum>5</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>F4SHAMQUE174</codigo>
+        <descripcion>Hamburguesa Cheese Burger</descripcion>
+        <cantiad>5</cantiad>
+        <precio>999</precio>
+        <total>4995</total>
+        <docentry>29487</docentry>
+        <lineNum>6</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>F4SHAMTOCDF174</codigo>
+        <descripcion>Hamburguesa American Burger</descripcion>
+        <cantiad>9</cantiad>
+        <precio>1099</precio>
+        <total>9891</total>
+        <docentry>29487</docentry>
+        <lineNum>7</lineNum>
+      </oDetalle>
+    </Detalle>
+  </OV>
+  <OV>
+    <Encabezado>
+      <docentry>25787</docentry>
+      <docnum>18153</docnum>
+      <ruta>23</ruta>
+      <cardCode>765585368-0-C</cardCode>
+      <cardName>RMO DOS SPA</cardName>
+      <dirDespacho>VICUÑA MACKENNA 4015 LOCAL D</dirDespacho>
+      <comuna>PENAFLOR</comuna>
+      <ciudad>SANTIAGO</ciudad>
+      <docTotal>44477</docTotal>
+      <fechaDespacho>2020-12-04T00:00:00</fechaDespacho>
+    </Encabezado>
+    <Detalle>
+      <oDetalle>
+        <codigo>MOLBLANCO750</codigo>
+        <descripcion>Pan Molde Blanco 750 gr.</descripcion>
+        <cantiad>12</cantiad>
+        <precio>1003.2</precio>
+        <total>12038</total>
+        <docentry>25787</docentry>
+        <lineNum>1</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>MOLINTEGRAL800</codigo>
+        <descripcion>Pan Molde Integral 800 gr.</descripcion>
+        <cantiad>24</cantiad>
+        <precio>1003.2</precio>
+        <total>24077</total>
+        <docentry>25787</docentry>
+        <lineNum>2</lineNum>
+      </oDetalle>
+    </Detalle>
+  </OV>
+  <OV>
+    <Encabezado>
+      <docentry>36293</docentry>
+      <docnum>24719</docnum>
+      <ruta>2B</ruta>
+      <cardCode>946230006-505-C</cardCode>
+      <cardName>SODEXO CHILE SPA</cardName>
+      <dirDespacho>Camino Vecinal 8600</dirDespacho>
+      <comuna>RENCA</comuna>
+      <ciudad>SANTIAGO</ciudad>
+      <docTotal>55792</docTotal>
+      <fechaDespacho>2020-12-04T00:00:00</fechaDespacho>
+    </Encabezado>
+    <Detalle>
+      <oDetalle>
+        <codigo>MB004</codigo>
+        <descripcion>Sdw ave pimenton Premium</descripcion>
+        <cantiad>4</cantiad>
+        <precio>923</precio>
+        <total>3692</total>
+        <docentry>36293</docentry>
+        <lineNum>1</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>MB006</codigo>
+        <descripcion>Sdw Ave Mayo Premium</descripcion>
+        <cantiad>1</cantiad>
+        <precio>923</precio>
+        <total>923</total>
+        <docentry>36293</docentry>
+        <lineNum>2</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>MB007</codigo>
+        <descripcion>Sdw Pizzeta Premium</descripcion>
+        <cantiad>43</cantiad>
+        <precio>983</precio>
+        <total>42269</total>
+        <docentry>36293</docentry>
+        <lineNum>3</lineNum>
+      </oDetalle>
+    </Detalle>
+  </OV>
+  <OV>
+    <Encabezado>
+      <docentry>26914</docentry>
+      <docnum>18880</docnum>
+      <ruta>3</ruta>
+      <cardCode>967555800-279-C</cardCode>
+      <cardName>WALMART CHILE ALIMENTOS Y SERVICIOS LIMITADA</cardName>
+      <dirDespacho>av.santa rosa 115</dirDespacho>
+      <comuna>Santiago Centro</comuna>
+      <ciudad>SANTIAGO</ciudad>
+      <docTotal>25885</docTotal>
+      <fechaDespacho>2020-12-04T00:00:00</fechaDespacho>
+    </Encabezado>
+    <Detalle>
+      <oDetalle>
+        <codigo>MB005</codigo>
+        <descripcion>Sdw Churr. Queso premium</descripcion>
+        <cantiad>12</cantiad>
+        <precio>1100</precio>
+        <total>13200</total>
+        <docentry>26914</docentry>
+        <lineNum>1</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>F4SHAMQUE174</codigo>
+        <descripcion>Hamburguesa Cheese Burger</descripcion>
+        <cantiad>8</cantiad>
+        <precio>1069</precio>
+        <total>8552</total>
+        <docentry>26914</docentry>
+        <lineNum>2</lineNum>
+      </oDetalle>
+    </Detalle>
+  </OV>
+</ArrayOfOV>

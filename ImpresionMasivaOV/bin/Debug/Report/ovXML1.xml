@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<ArrayOfOV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OV>
+    <Encabezado>
+      <docentry>30390</docentry>
+      <docnum>21032</docnum>
+      <ruta>1</ruta>
+      <cardCode>61103007K-0-C</cardCode>
+      <cardName>HOSPITAL CLINICO DE LA FUERZA AEREA GRAL DR RAUL YAZIGI JAUREGUI</cardName>
+      <dirDespacho>AV LAS CONDES 8631</dirDespacho>
+      <comuna>LAS CONDES</comuna>
+      <ciudad>SANTIAGO</ciudad>
+      <docTotal>528389</docTotal>
+      <CorrelativoERP>1660380</CorrelativoERP>
+      <fechaDespacho>2020-12-01T00:00:00</fechaDespacho>
+    </Encabezado>
+    <Detalle>
+      <oDetalle>
+        <codigo>GR003</codigo>
+        <descripcion>Sdw Gran ruta Ave Pimenton</descripcion>
+        <cantiad>190</cantiad>
+        <precio>740.33</precio>
+        <total>140663</total>
+        <docentry>30390</docentry>
+        <lineNum>1</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>RETMAVEM160</codigo>
+        <descripcion>sdw Marraqueta ave mayo</descripcion>
+        <cantiad>190</cantiad>
+        <precio>557.14</precio>
+        <total>105857</total>
+        <docentry>30390</docentry>
+        <lineNum>2</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>RETMJQUESO125</codigo>
+        <descripcion>sdw Marraqueta jamon queso</descripcion>
+        <cantiad>190</cantiad>
+        <precio>557.14</precio>
+        <total>105857</total>
+        <docentry>30390</docentry>
+        <lineNum>3</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>MB100</codigo>
+        <descripcion>Sdw Hallulla 70 Queso 110 gr</descripcion>
+        <cantiad>190</cantiad>
+        <precio>482.35</precio>
+        <total>91647</total>
+        <docentry>30390</docentry>
+        <lineNum>4</lineNum>
+      </oDetalle>
+    </Detalle>
+  </OV>
+  <OV>
+    <Encabezado>
+      <docentry>24393</docentry>
+      <docnum>17207</docnum>
+      <ruta>1</ruta>
+      <cardCode>76871990K-0-C</cardCode>
+      <cardName>NUEVA CLINICA CORDILLERA</cardName>
+      <dirDespacho>ALEXANDER FLEMING 7889</dirDespacho>
+      <comuna>LAS CONDES</comuna>
+      <ciudad>SANTIAGO</ciudad>
+      <docTotal>98205</docTotal>
+      <CorrelativoERP>1656669</CorrelativoERP>
+      <fechaDespacho>2020-12-01T00:00:00</fechaDespacho>
+    </Encabezado>
+    <Detalle>
+      <oDetalle>
+        <codigo>F4SHAMQUE174</codigo>
+        <descripcion>Hamburguesa Cheese Burger</descripcion>
+        <cantiad>66</cantiad>
+        <precio>1015.55</precio>
+        <total>67026</total>
+        <docentry>24393</docentry>
+        <lineNum>1</lineNum>
+      </oDetalle>
+      <oDetalle>
+        <codigo>GA002</codigo>
+        <descripcion>Caja galleton chocolate 100 un</descripcion>
+        <cantiad>1</cantiad>
+        <precio>15499</precio>
+        <total>15499</total>
+        <docentry>24393</docentry>
+        <lineNum>2</lineNum>
+      </oDetalle>
+    </Detalle>
+  </OV>
+</ArrayOfOV>
