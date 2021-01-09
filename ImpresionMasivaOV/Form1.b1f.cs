@@ -8,7 +8,6 @@ using Stimulsoft.Base;
 using System.IO;
 using System.Xml.Serialization;
 using System.Data;
-//using PdfiumViewer;
 
 namespace ImpresionMasivaOV
 {
@@ -594,24 +593,18 @@ namespace ImpresionMasivaOV
                 rep.RegData(ds);
                 rep.Dictionary.Synchronize();     //refrescar reporte con campo nuevo 
                 rep.Render();
-                //rep.Show();
 
-                rep.ExportDocument(StiExportFormat.Pdf, stream);
-                // rep.ExportDocument(StiExportFormat.Pdf, "OVReportMasivo.pdf");
-                //sPath = Path.GetDirectoryName(this.GetType().Assembly.Location);
+
+                DateTime now = DateTime.Now;
+                string pdfName = now.ToString("yyyyMMddTHHmmssZ") + "OVReportMasivo.pdf";
+
+
+                //rep.ExportDocument(StiExportFormat.Pdf, stream); //intento de abrirlo pdf en memoria, pero no funciono
+                
+                rep.ExportDocument(StiExportFormat.Pdf, "C:\\Windows\\Temp\\" + pdfName);
+                sPath = Path.GetDirectoryName(this.GetType().Assembly.Location);
                 //string filename = "OVReportMasivo.pdf";
-                //System.Diagnostics.Process.Start(stream); new
-                //System.Diagnostics.Process.Start(sPath + "/" + filename);
-
-                rep.Print(true);
-                //var pdfDocument = PdfDocument.Load(stream);
-                //int page = pdfDocument.PageCount;
-
-                //pdfDocument.Render();
-
-                //pdfRenderer.Load(_pdfDocument);
-
-                //rep.Print(true);
+                System.Diagnostics.Process.Start("C:\\Windows\\Temp\\" + pdfName);
 
             }
             catch (Exception e)
