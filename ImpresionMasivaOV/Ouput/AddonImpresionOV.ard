@@ -18,323 +18,323 @@
   </Configuration>
   <Addons>
     <Addon Name="AddonImpresionOV" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
-      <x86 AddonExe="C:\Program Files (x86)\sap\SAP Business One SDK\Tools\ExtensionPackage\ImpresionMasivaOV.exe" AddonSig="4165D8988140B48F66D90654672BC77D" ExeDir="X86Client">
+      <x86 AddonExe="ImpresionMasivaOV.exe" AddonSig="713A89587FF3039F209325105A6C3D7C" ExeDir="X86Client">
         <Installation>
           <Files>
-            <File FileName="ADODB.dll">
+            <File FileName="X86Client\ADODB.dll">
               <Actions />
             </File>
-            <File FileName="ImpresionMasivaOV.b1s">
+            <File FileName="X86Client\ImpresionMasivaOV.b1s">
               <Actions />
             </File>
-            <File FileName="ImpresionMasivaOV.exe">
+            <File FileName="X86Client\ImpresionMasivaOV.exe">
               <Actions />
             </File>
-            <File FileName="ImpresionMasivaOV.pdb">
+            <File FileName="X86Client\ImpresionMasivaOV.pdb">
               <Actions />
             </File>
-            <File FileName="LibExcel.dll">
+            <File FileName="X86Client\LibExcel.dll">
               <Actions />
             </File>
-            <File FileName="Newtonsoft.Json.dll">
+            <File FileName="X86Client\Newtonsoft.Json.dll">
               <Actions />
             </File>
-            <File FileName="Newtonsoft.Json.xml">
+            <File FileName="X86Client\Newtonsoft.Json.xml">
               <Actions />
             </File>
-            <File FileName="SAPBusinessOneSDK.dll">
+            <File FileName="X86Client\SAPBusinessOneSDK.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Base.dll">
+            <File FileName="X86Client\Stimulsoft.Base.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Base.pdb">
+            <File FileName="X86Client\Stimulsoft.Base.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Base.xml">
+            <File FileName="X86Client\Stimulsoft.Base.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.dll">
+            <File FileName="X86Client\Stimulsoft.Controls.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.pdb">
+            <File FileName="X86Client\Stimulsoft.Controls.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.Win.dll">
+            <File FileName="X86Client\Stimulsoft.Controls.Win.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.Win.pdb">
+            <File FileName="X86Client\Stimulsoft.Controls.Win.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.Win.xml">
+            <File FileName="X86Client\Stimulsoft.Controls.Win.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.xml">
+            <File FileName="X86Client\Stimulsoft.Controls.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Data.dll">
+            <File FileName="X86Client\Stimulsoft.Data.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Data.pdb">
+            <File FileName="X86Client\Stimulsoft.Data.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Data.xml">
+            <File FileName="X86Client\Stimulsoft.Data.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Database.dll">
+            <File FileName="X86Client\Stimulsoft.Database.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Database.pdb">
+            <File FileName="X86Client\Stimulsoft.Database.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Database.xml">
+            <File FileName="X86Client\Stimulsoft.Database.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Design.dll">
+            <File FileName="X86Client\Stimulsoft.Design.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Design.pdb">
+            <File FileName="X86Client\Stimulsoft.Design.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Design.xml">
+            <File FileName="X86Client\Stimulsoft.Design.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Editor.dll">
+            <File FileName="X86Client\Stimulsoft.Editor.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Editor.pdb">
+            <File FileName="X86Client\Stimulsoft.Editor.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Editor.xml">
+            <File FileName="X86Client\Stimulsoft.Editor.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Map.dll">
+            <File FileName="X86Client\Stimulsoft.Map.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Map.pdb">
+            <File FileName="X86Client\Stimulsoft.Map.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Map.xml">
+            <File FileName="X86Client\Stimulsoft.Map.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Check.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Check.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Check.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Check.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Check.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Check.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Design.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Design.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Design.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Design.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Design.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Design.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.dll">
+            <File FileName="X86Client\Stimulsoft.Report.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Helper.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Helper.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Helper.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Helper.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Helper.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Helper.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Web.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Web.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Web.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Web.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Web.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Web.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Win.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Win.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Win.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Win.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Win.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Win.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.xml">
+            <File FileName="X86Client\Stimulsoft.Report.xml">
               <Actions />
             </File>
-            <File FileName="Svg.dll">
+            <File FileName="X86Client\Svg.dll">
               <Actions />
             </File>
-            <File FileName="Report\OVReportMasivo.mrt">
+            <File FileName="X86Client\Report\OVReportMasivo.mrt">
               <Actions />
             </File>
           </Files>
         </Installation>
         <Uninstallation>
           <Files>
-            <File FileName="ADODB.dll">
+            <File FileName="X86Client\ADODB.dll">
               <Actions />
             </File>
-            <File FileName="ImpresionMasivaOV.b1s">
+            <File FileName="X86Client\ImpresionMasivaOV.b1s">
               <Actions />
             </File>
-            <File FileName="ImpresionMasivaOV.exe">
+            <File FileName="X86Client\ImpresionMasivaOV.exe">
               <Actions />
             </File>
-            <File FileName="ImpresionMasivaOV.pdb">
+            <File FileName="X86Client\ImpresionMasivaOV.pdb">
               <Actions />
             </File>
-            <File FileName="LibExcel.dll">
+            <File FileName="X86Client\LibExcel.dll">
               <Actions />
             </File>
-            <File FileName="Newtonsoft.Json.dll">
+            <File FileName="X86Client\Newtonsoft.Json.dll">
               <Actions />
             </File>
-            <File FileName="Newtonsoft.Json.xml">
+            <File FileName="X86Client\Newtonsoft.Json.xml">
               <Actions />
             </File>
-            <File FileName="SAPBusinessOneSDK.dll">
+            <File FileName="X86Client\SAPBusinessOneSDK.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Base.dll">
+            <File FileName="X86Client\Stimulsoft.Base.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Base.pdb">
+            <File FileName="X86Client\Stimulsoft.Base.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Base.xml">
+            <File FileName="X86Client\Stimulsoft.Base.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.dll">
+            <File FileName="X86Client\Stimulsoft.Controls.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.pdb">
+            <File FileName="X86Client\Stimulsoft.Controls.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.Win.dll">
+            <File FileName="X86Client\Stimulsoft.Controls.Win.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.Win.pdb">
+            <File FileName="X86Client\Stimulsoft.Controls.Win.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.Win.xml">
+            <File FileName="X86Client\Stimulsoft.Controls.Win.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Controls.xml">
+            <File FileName="X86Client\Stimulsoft.Controls.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Data.dll">
+            <File FileName="X86Client\Stimulsoft.Data.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Data.pdb">
+            <File FileName="X86Client\Stimulsoft.Data.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Data.xml">
+            <File FileName="X86Client\Stimulsoft.Data.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Database.dll">
+            <File FileName="X86Client\Stimulsoft.Database.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Database.pdb">
+            <File FileName="X86Client\Stimulsoft.Database.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Database.xml">
+            <File FileName="X86Client\Stimulsoft.Database.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Design.dll">
+            <File FileName="X86Client\Stimulsoft.Design.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Design.pdb">
+            <File FileName="X86Client\Stimulsoft.Design.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Design.xml">
+            <File FileName="X86Client\Stimulsoft.Design.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Editor.dll">
+            <File FileName="X86Client\Stimulsoft.Editor.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Editor.pdb">
+            <File FileName="X86Client\Stimulsoft.Editor.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Editor.xml">
+            <File FileName="X86Client\Stimulsoft.Editor.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Map.dll">
+            <File FileName="X86Client\Stimulsoft.Map.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Map.pdb">
+            <File FileName="X86Client\Stimulsoft.Map.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Map.xml">
+            <File FileName="X86Client\Stimulsoft.Map.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Check.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Check.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Check.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Check.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Check.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Check.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Design.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Design.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Design.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Design.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Design.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Design.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.dll">
+            <File FileName="X86Client\Stimulsoft.Report.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Helper.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Helper.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Helper.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Helper.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Helper.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Helper.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Web.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Web.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Web.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Web.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Web.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Web.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Win.dll">
+            <File FileName="X86Client\Stimulsoft.Report.Win.dll">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Win.pdb">
+            <File FileName="X86Client\Stimulsoft.Report.Win.pdb">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.Win.xml">
+            <File FileName="X86Client\Stimulsoft.Report.Win.xml">
               <Actions />
             </File>
-            <File FileName="Stimulsoft.Report.xml">
+            <File FileName="X86Client\Stimulsoft.Report.xml">
               <Actions />
             </File>
-            <File FileName="Svg.dll">
+            <File FileName="X86Client\Svg.dll">
               <Actions />
             </File>
-            <File FileName="Report\OVReportMasivo.mrt">
+            <File FileName="X86Client\Report\OVReportMasivo.mrt">
               <Actions />
             </File>
           </Files>

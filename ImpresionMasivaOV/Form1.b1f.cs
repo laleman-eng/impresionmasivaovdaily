@@ -31,17 +31,18 @@ namespace ImpresionMasivaOV
         private static SAPbouiCOM.Form oForm = null;
         private static SAPbouiCOM.DBDataSource oDBDataSource = null;
         private string s;
-        private SAPbobsCOM.Recordset oRecordSet = null;
+        private static SAPbobsCOM.Recordset oRecordSet = null;
         private SAPbouiCOM.DataTable oDataTable;
         private static SAPbobsCOM.Company oCompany = Program.oCompany;
-        private SAPbouiCOM.Grid oGrid;
+        private  SAPbouiCOM.Grid oGrid;
+        private static SAPbouiCOM.Grid oGridstatic;
         private SAPbouiCOM.Button ButtonBuscar;
         private SAPbouiCOM.Button ButtonImprimir;
         private SAPbouiCOM.Button ButtonCancelar;
         private SAPbouiCOM.CheckBox CheckBox1;
         private SAPbouiCOM.StaticText StaticText0;
         public Log log;
-        private string TempDocNumLink;
+        private static string TempDocNumLink;
 
 
         public Form1()
@@ -93,7 +94,8 @@ namespace ImpresionMasivaOV
         /// </summary>
         public override void OnInitializeFormEvents()
         {
-            this.RightClickAfter += new RightClickAfterHandler(this.Form_RightClickAfter);
+            this.RightClickAfter += new SAPbouiCOM.Framework.FormBase.RightClickAfterHandler(this.Form_RightClickAfter);
+            this.ActivateAfter += new ActivateAfterHandler(this.Form_ActivateAfter);
 
         }
 
@@ -107,7 +109,9 @@ namespace ImpresionMasivaOV
                 oForm = Application.SBO_Application.Forms.Item(this.UIAPIRawForm.UniqueID);
 
                 oRecordSet = (SAPbobsCOM.Recordset)oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
+                oGridstatic = (SAPbouiCOM.Grid)oForm.Items.Item("Grid").Specific;
 
+ 
                 //oDBDataSource = oForm.DataSources.DBDataSources.Item("ORDR");
                 //SAPbouiCOM.DBDataSource oDBDSORDR = oForm.DataSources.DBDataSources.Item("ORDR");
 
@@ -320,7 +324,7 @@ namespace ImpresionMasivaOV
                 if (((SAPbouiCOM.CheckBox)oForm.Items.Item("chkImp").Specific).Checked)
                 {
                     s = s + @"AND T0.""Printed"" = '{0}'";
-                    s = String.Format(s, 'Y');
+                    s = String.Format(s, 'N');
                 }
 
                 if (DocnumDesde != "" && DocnumHasta != "")
@@ -735,36 +739,69 @@ namespace ImpresionMasivaOV
 
         private void oGrid_LinkPressedAfter(object sboObject, SAPbouiCOM.SBOItemEventArg pVal)
         {
-            if (pVal.ItemUID == "Grid" && pVal.ColUID == "N° Documento")
-            {
-                oGrid.DataTable.SetValue("N° Documento", pVal.Row, TempDocNumLink);
-            }
+            //if (pVal.ItemUID == "Grid" && pVal.ColUID == "N° Documento")
+            //{
+            //    oGrid.DataTable.SetValue("N° Documento", pVal.Row, TempDocNumLink);
+            //}
+
+            //oForm.Freeze(false);
+        }
+
+        public static void CloseDocumentLink(int row)
+        {
+
+           oGridstatic.DataTable.SetValue("N° Documento", row, TempDocNumLink);
 
             oForm.Freeze(false);
         }
+
+
+        public static void OpendocumenLink (int row )
+        {
+            string s;
+            oForm.Freeze(true);
+            string sDocnum = oGridstatic.DataTable.GetValue("N° Documento", row).ToString().Trim();
+            s = @"SELECT ""DocEntry"" FROM ""ORDR"" WHERE ""DocNum"" = {0}";
+            s = String.Format(s, sDocnum);
+            oRecordSet.DoQuery(s);
+            TempDocNumLink = sDocnum;
+            string docEntry = oRecordSet.Fields.Item("DocEntry").Value.ToString();
+            oGridstatic.DataTable.SetValue("N° Documento", row, docEntry);
+        }
         private void oGrid_LinkPressedBefore(object sboObject, SAPbouiCOM.SBOItemEventArg pVal, out bool BubbleEvent)
         {
-            try
-            {
-                if (pVal.ItemUID == "Grid" && pVal.ColUID == "N° Documento")
-                {
-                    oForm.Freeze(true);
-                    string sDocnum = oGrid.DataTable.GetValue("N° Documento", pVal.Row).ToString().Trim();
-                    s = @"SELECT ""DocEntry"" FROM ""ORDR"" WHERE ""DocNum"" = {0}";
-                    s = String.Format(s, sDocnum);
-                    oRecordSet.DoQuery(s);
-                    TempDocNumLink = sDocnum;
-                    string docEntry = oRecordSet.Fields.Item("DocEntry").Value.ToString();
-                    oGrid.DataTable.SetValue("N° Documento", pVal.Row, docEntry);
-                }
+            //try
+            //{
+            //    if (pVal.ItemUID == "Grid" && pVal.ColUID == "N° Documento")
+            //    {
+            //        oForm.Freeze(true);
+            //        string sDocnum = oGrid.DataTable.GetValue("N° Documento", pVal.Row).ToString().Trim();
+            //        s = @"SELECT ""DocEntry"" FROM ""ORDR"" WHERE ""DocNum"" = {0}";
+            //        s = String.Format(s, sDocnum);
+            //        oRecordSet.DoQuery(s);
+            //        TempDocNumLink = sDocnum;
+            //        string docEntry = oRecordSet.Fields.Item("DocEntry").Value.ToString();
+            //        oGrid.DataTable.SetValue("N° Documento", pVal.Row, docEntry);
+            //    }
 
-            }
-            catch (Exception e)
-            {
-                //oForm.Freeze(false);
-            }
+            //}
+            //catch (Exception e)
+            //{
+            //    //oForm.Freeze(false);
+            //}
 
             BubbleEvent = true;
+        }
+
+        private void Form_ActivateAfter(SAPbouiCOM.SBOItemEventArg pVal)
+        {
+            if (1 ==1 )
+            {
+
+            }
+
+            //throw new System.NotImplementedException();
+
         }
     }
 }
