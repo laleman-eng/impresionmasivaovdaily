@@ -110,8 +110,10 @@ namespace ImpresionMasivaOV
 
                 oRecordSet = (SAPbobsCOM.Recordset)oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset);
                 oGridstatic = (SAPbouiCOM.Grid)oForm.Items.Item("Grid").Specific;
+                
+                //((SAPbouiCOM.Grid)(this.GetItem("Grid").Specific));
+                
 
- 
                 //oDBDataSource = oForm.DataSources.DBDataSources.Item("ORDR");
                 //SAPbouiCOM.DBDataSource oDBDSORDR = oForm.DataSources.DBDataSources.Item("ORDR");
 
@@ -759,8 +761,9 @@ namespace ImpresionMasivaOV
         public static void OpendocumenLink (int row )
         {
             string s;
+            string sDocnum;
             oForm.Freeze(true);
-            string sDocnum = oGridstatic.DataTable.GetValue("N° Documento", row).ToString().Trim();
+            sDocnum = oGridstatic.DataTable.GetValue("N° Documento", row).ToString().Trim();
             s = @"SELECT ""DocEntry"" FROM ""ORDR"" WHERE ""DocNum"" = {0}";
             s = String.Format(s, sDocnum);
             oRecordSet.DoQuery(s);
