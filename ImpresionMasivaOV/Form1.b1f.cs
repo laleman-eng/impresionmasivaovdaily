@@ -313,7 +313,7 @@ namespace ImpresionMasivaOV
 
                 if (Ruta != "Todos")
                 {
-                    s = s + @"AND T0.""U_RUTA"" = '{0}'";
+                    s = s + @"AND T0.""U_RUTA"" = '{0}'"; 
                     s = String.Format(s, Ruta);
                 }
 
@@ -336,7 +336,7 @@ namespace ImpresionMasivaOV
                 }
 
 
-                s = s + @"ORDER BY T0.""DocDueDate"" , T0.""U_RUTA"", T0.""CardCode"" , T0.""DocTotal"" ";
+                s = s + @"ORDER BY T0.""DocDueDate"" , T0.""U_RUTA"", T0.""CardCode"" , T0.""DocTotal"" DESC "; //cambio conversado con JC
 
                 oDataTable.ExecuteQuery(s);
 
